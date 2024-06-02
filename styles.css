@@ -12,7 +12,7 @@ header {
 background-color: #333333;
 margin: 0;
 padding: 0;
-width: 100%;
+max-width: 100%;
 }
 
 header p {
@@ -24,7 +24,7 @@ color:  #ffffff;
 
 section {
 padding: 1em 25%;
-width: 100%;
+max-width: 100%;
 }
 
 section p {
