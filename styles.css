@@ -1,6 +1,28 @@
 body {
-  margin: 0;
-  padding: 1em 25%;
+margin: 0;
+padding: 0;
+}
+
+main {
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #333333;
+margin: 0;
+padding: 0;
+}
+
+p {
+margin: 0;
+padding: 0;
+font-size: 3.5em;
+color:  #ffffff;
+}
+
+section {
+padding: 1em 25%;
 }
 
 section p {
@@ -23,7 +45,7 @@ section img {
 }
 
 @media (max-width: 767px) {
-  body {
-    padding: 1em;
-  }
+section {
+padding: 1em 25%;
+}
 }
