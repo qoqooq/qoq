@@ -12,6 +12,7 @@ header {
 background-color: #333333;
 margin: 0;
 padding: 0;
+width: 100%;
 }
 
 header p {
@@ -23,12 +24,13 @@ color:  #ffffff;
 
 section {
 padding: 1em 25%;
+width: 100%;
 }
 
 section p {
-  font-size: 1.5em;
-  font-family: Arial;
-  margin: 0 0 10px;
+font-size: 1.5em;
+font-family: Arial;
+margin: 0 0 10px;
 }
 
 section h1 {
