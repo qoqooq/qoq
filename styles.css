@@ -20,6 +20,7 @@ background-color: #333333;
 margin: 0;
 padding: 1.0625em;
 max-width: 100%;
+bottom: 0;
 }
 
 header p {
