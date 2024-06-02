@@ -15,6 +15,13 @@ padding: 1.0625em;
 max-width: 100%;
 }
 
+nav {
+background-color: #333333;
+margin: 0;
+padding: 1.0625em;
+margin: 0 0 1.0625em;
+}
+
 footer {
 background-color: #333333;
 margin: 0;
@@ -60,7 +67,7 @@ section h1 {
 section img {
   margin: 0 0 1.0625em;
   max-width: 100%;
-  border-radius: 7px;
+  border-radius: 1.0625em;
 }
 
 @media (max-width: 767px) {
