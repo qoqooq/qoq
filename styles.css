@@ -47,61 +47,99 @@ font-family: Arial;
 section {
 margin: 0 25%;
 padding: 0;
+box-sizing: border-box;
 }
 
 section p {
 margin: 0 0 0.625em 0;
-font-size: 17px;
+padding: 0;
+font-size: 1.0625em;
 font-family: Arial;
+line-height: 1.5em;
+box-sizing: border-box;
 }
 
 section h1 {
+margin: 0 0 0.625em 0;
+padding: 0;
 text-align: center;
-font-size: 34px;
+font-size: 2.125em;
 font-family: Arial;
+line-height: 1.5em;
+box-sizing: border-box;
 }
 
 section img {
 margin: 0 0 0.625em 0;
+padding: 0;
 border-radius: 0.625em;
 width:100%;
+box-sizing: border-box;
 }
 
-section nav {
+/* ============================================================ */
+
+.content {
 background-color: #DBD7D2;
-margin: 0;
-padding: 0.625em;
-border-radius: 0.625em;
+padding: 1.0625em;
 margin: 0 0 0.625em 0;
 }
 
-section nav ul {
+.p2 {
+margin: 0 0 0.625em 0;
+padding: 0;
+font-size: 1.0625em;
+font-family: Arial;
+}
+
+.p3 {
+margin: 0 0 0.625em 0;
+padding: 0 0 0 0.625em;
+font-size: 1.0625em;
+font-family: Arial;
+}
+
+.content ul {
 margin: 0;
 padding: 0;
+padding: 0 0 0 0.625em;
+box-sizing: border-box;
 }
 
-section nav ul li {
-padding-left: 0.625em;
-padding-right: 0;
-padding-top: 0;
-padding-bottom: 0;
+.content ul li {
 margin: 0 0 0.625em 0;
+padding: 0;
 list-style-type: none;
-border-radius: 0.625em;
-font-size: 17px;
-font-family: Arial;
+box-sizing: border-box;
 }
 
-section ul {
-margin: 0 0 0 1.25em;
+.content a {
+margin: 0;
 padding: 0;
+font-size: 1.0625em;
+font-family: Arial;
+box-sizing: border-box;
 }
 
-section ul li {
-margin: 0 0 0.625em 0;
-border-radius: 0.625em;
-font-size: 17px;
+.list {
+margin: 0;
+padding: 0;
+padding: 0 0 0 2.625em;
+box-sizing: border-box;
+}
+
+.list li {
+margin: 0 0 0.58823529em 0;
+padding: 0;
+font-size: 1.25em;
 font-family: Arial;
+line-height: 1.5em;
+box-sizing: border-box;
+}
+
+.list li::marker {
+color: red;
+font-size: 1.25em;
 }
 
 /* ============================================================ */
