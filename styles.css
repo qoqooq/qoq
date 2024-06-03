@@ -19,7 +19,7 @@ padding: 0;
 /* ============================================================ */
 
 header {
-background-color: #333333;
+background-color: #000000;
 margin: 0;
 padding: 1.0625em;
 position: fixed;
@@ -30,7 +30,7 @@ top: 0;
 /* ============================================================ */
 
 footer {
-background-color: #333333;
+background-color: #000000;
 margin: 0;
 padding: 1.0625em;
 }
